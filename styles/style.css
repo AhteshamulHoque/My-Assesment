@@ -170,6 +170,7 @@ nav{
     width: 25px;
     height: 25px;
     margin-bottom: 20px;
+    background-color: red;
 }
 
 .note-card h3 {
@@ -268,7 +269,6 @@ p {
   line-height: 1.5;
 }
 
-/* 3. The Button */
 .btn-primary {
   background-color: #4c8c64; 
   color: white;
@@ -286,10 +286,76 @@ p {
   background-color: #3e7051; 
 }
 
-
-.about-heading div:last-child p {
-  font-size: 13px;
-  color: #888;
-  margin-top: 10px;
+.free {
+  list-style: none;        
+  padding: 0;
+  margin-top: 20px;
+  margin: 0px;
   text-align: center;
+}
+.free li {
+  display: inline-block;    
+  color: #7a869a;           
+  font-size: 14px;
+}
+
+
+.free li:first-child::after {
+  content: "•";            
+  margin: 0 10px;       
+}
+
+footer {
+  background-color: #001a2c; 
+  padding: 60px 20px 20px 20px;
+  color: white;
+
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-items: flex-start;
+}
+
+.social img {
+  height: 50px; 
+}
+
+.link h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.icon {
+  display: flex;
+  gap: 15px; 
+}
+
+.icon span i {
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.icon span i:hover {
+  opacity: 0.7;
+}
+hr {
+  border: 0;
+  border-top: 1px solid #1a3a4a; 
+  width: 100%;
+  margin: 40px 0 20px 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 13px;
+  color: #a0aec0; 
+  width: 100%;
 }
