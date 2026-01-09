@@ -1,6 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .font-inter{
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
+}
 
+header{
+  padding-top: 20px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+  margin: auto;
+  background-color: white;
+}
+.logo img{
+  margin-left: 120px;
+}
+
+.menu{
+  display: flex;
+  gap: 33px;
+  list-style: none;
+}
+.menu li:hover{
+  background-color: green;
+}
+
+
+.menu a{
+  text-decoration: none;
+  color: #000;
+}
+
+.btn{
+  padding: 12px 16px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: none;
+}
+
+.btn-primary{
+  background-color: #30B868;
+  color: white;
+}
+
+.btn-primary:hover{
+  background-color: red;
+}
+
+.btn-outline{
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+#banner{
+  min-height: 90vh;
+  padding: 200px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/hero-bg.png") center/cover no-repeat;
+}
+
+.banner-content{
+  max-width: 800px;
+  text-align: center;
+}
+
+.banner-content h1{
+  font-size: 70px;
+  color: aliceblue;
+}
+
+.banner-content h2{
+  font-size: 70px;
+  color: #30B868;
+}
+
+.banner-content p{
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#banner .banner-content button:first-child{
+  background-color: white;
+  color: #30B868;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 700; 
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#banner .banner-content button:first-child span{
+  color: #30B868;
+  font-weight: 700;
+}
+#banner .banner-content button:first-child:hover{
+  background-color: #30B868;
+  color: white;
+}
+#banner .banner-content button:first-child:hover span{
+  color: white;
+}
+.banner-buttons{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
