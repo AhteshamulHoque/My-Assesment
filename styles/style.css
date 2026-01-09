@@ -48,6 +48,7 @@ nav{
   align-items: center;
   gap: 8px;
   border: none;
+   margin-right: 120px;
 }
 
 .btn-primary{
@@ -123,7 +124,172 @@ nav{
 }
 .banner-buttons{
   margin-top: 25px;
+  display: flex;        
+  gap: 15px;            
+  flex-wrap: wrap;    
+}
+#note {
+    background-color: #ffffff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.note-heading {
+    font-size: 40px;
+    font-weight: 800;
+    color: #0a192f;
+    margin-bottom: 10px;
+}
+
+.note-container p {
+    color: #6b7280;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.note-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.note-card {
+    background: #ffffff;
+    border: 1px solid #f3f4f6;
+    border-radius: 12px;
+    padding: 40px 20px;
+    min-width: 250px;
+    max-width: 280px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.note-card img {
+    background-color: #ff5c5c;
+    padding: 12px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.note-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 15px;
+}
+.note-card p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4b5563;
+    margin: 0;
+}
+
+#solution {
+  padding: 50px;
+  margin: 0;
+  display: flex;             
+  align-items: center;      
+  justify-content: center;  
+  gap: 40px;             
+  box-sizing: border-box;   
+}
+
+
+.img {
+  max-width: 450px;          
+  width: 100%;   
+  display: flex;     
+}
+
+.first {
+  color: #2e7d32;            
+  margin-bottom: 10px;       
+  font-size: 14px;
+}
+
+.note-title {
+  color: #0d1b2a;           
+  font-size: 40px;          
+  margin: 0 0 20px 0;        
+  line-height: 1.1;          
+}
+
+p {
+  color: #555;               
+  line-height: 1.5;          
+  margin-bottom: 25px;
+}
+.check {
+  list-style: none;          
+  padding: 0;
+}
+
+.check li {
+  display: flex;            
+  align-items: center;      
+  margin-bottom: 12px;       
+  font-weight: bold;         
+  color: #333;
+}
+
+.check img {
+  width: 20px;               
+  margin-right: 10px;        
+}
+
+#reday {
+  padding: 60px 20px;
   display: flex;
-  justify-content: center;
-  gap: 15px;
+  justify-content: center; 
+}
+
+.about-container {
+  background-color: #f9f7f2;
+  padding: 80px 40px;
+  border-radius: 15px;      
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;      
+}
+
+
+.about-heading h2 {
+  color: #0d1b2a;           
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.about-heading p {
+  color: #666;            
+  font-size: 16px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+/* 3. The Button */
+.btn-primary {
+  background-color: #4c8c64; 
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;       /
+  cursor: pointer;
+  margin-bottom: 20px;
+
+}
+
+.btn-primary:hover {
+  background-color: #3e7051; 
+}
+
+
+.about-heading div:last-child p {
+  font-size: 13px;
+  color: #888;
+  margin-top: 10px;
+  text-align: center;
 }
